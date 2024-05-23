@@ -1,6 +1,6 @@
 from stockexchange.stock_market import StockMarket
 from stockexchange.stock import StockType
-from stockexchange.stock_market_validation import validate_price, validate_quantity, validate_buy_sell_indicator
+from stockexchange.stock_market_validation import validate_price, validate_quantity
 
 
 def main():
