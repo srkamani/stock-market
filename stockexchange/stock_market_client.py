@@ -88,36 +88,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# # Create StockExchange instance
-# stock_market = StockMarket()
-#
-# # Add stocks to stock exchange
-# stock_market.add_stock('TEA', StockType.COMMON, 0, par_value=100)
-# stock_market.add_stock('POP', StockType.COMMON, 8, par_value=100)
-# stock_market.add_stock('ALE', StockType.COMMON, 23, par_value=60)
-# stock_market.add_stock('GIN', StockType.PREFERRED, 8, fixed_dividend=2, par_value=100)
-# stock_market.add_stock('JOE', StockType.COMMON, 12, par_value=250)
-
-
-# # Record trades
-# stock_market.record_trade('POP', 50, 'sell', 20)
-# stock_market.record_trade('ALE', 75, 'buy', 25)
-# stock_market.record_trade('GIN', 25, 'sell', 30)
-# stock_market.record_trade('JOE', 40, 'buy', 35)
-# stock_market.record_trade('TEA', 100, 'buy', 15)
-#
-# # Calculate and print dividend yield and P/E ratio for a given price
-# price = 25
-# for symbol in stock_market.stocks:
-#     print(f"Stock: {symbol}")
-#     print(f"Dividend Yield: {stock_market.dividend_yield(symbol, price)}")
-#     print(f"P/E Ratio: {stock_market.pe_ratio(symbol, price)}")
-#
-# # Calculate and print volume weighted stock price for each stock
-# for symbol in stock_market.stocks:
-#     print(f"Stock: {symbol}")
-#     print(f"Volume Weighted Stock Price: {stock_market.volume_weighted_stock_price(symbol)}")
-#
-# # Calculate and print GBCE All Share Index
-#print(f"GBCE All Share Index: {stock_market.geometric_mean()}")
